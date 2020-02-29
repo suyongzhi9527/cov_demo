@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+#title {
+    position: absolute; /* 绝对定位 */
+    width: 40%;
+    height: 10%;
+    top: 10px;
+    left: 30%;
+    /*background: aqua;*/
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#time {
+    position: absolute; /* 绝对定位 */
+    /*width: 30%;*/
+    height: 10%;
+    top: 5%;
+    right: 2%;
+    color: #fff;
+    font-size: 20px;
+}
+
+#left1 {
+    position: absolute; /* 绝对定位 */
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    left: 0;
+    background: bisque;
+}
+
+#left2 {
+    position: absolute; /* 绝对定位 */
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    left: 0;
+    background: aqua;
+}
+
+#right1 {
+    position: absolute; /* 绝对定位 */
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    right: 0;
+    background: blanchedalmond;
+}
+
+#right2 {
+    position: absolute; /* 绝对定位 */
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    right: 0;
+    background: burlywood;
+}
+
+#center1 {
+    position: absolute; /* 绝对定位 */
+    width: 40%;
+    height: 30%;
+    top: 10%;
+    left: 30%;
+    /*background: antiquewhite;*/
+}
+
+#center2 {
+    position: absolute; /* 绝对定位 */
+    width: 40%;
+    height: 60%;
+    top: 40%;
+    left: 30%;
+    background: beige;
+}
+
+.num {
+    width: 25%;
+    float: left;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: gold;
+    font-size: 40px;
+}
+
+.txt {
+    width: 25%;
+    float: left;
+    font-family: "幼圆";
+    display: flex;
+    color: white;
+    align-content: center;
+    justify-content: center;
+}
+
+.txt h2 {
+    margin: 0;
+}

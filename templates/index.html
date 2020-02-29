@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask模板调用</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<h1>Flask模板调用</h1>
+<p>这是段落标签</p>
+<button>点我</button>
+<script>
+    $("button").click(function () {
+        $.ajax({
+            url: "/ajax",
+            type: "post",
+            data: {
+                "name": "李四",
+                "age": 30,
+            },
+            success: function (d) {
+                $("h1").html("武汉加油" + d)
+            },
+            error: function () {
+                alert("发送ajax请求失败!")
+            }
+        })
+    })
+</script>
+</body>
+</html>
